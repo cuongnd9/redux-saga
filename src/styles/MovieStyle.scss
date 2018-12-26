@@ -1,0 +1,46 @@
+@keyframes btn-play {
+  0% {
+    transform: rotate(20deg);
+  }
+  25% {
+    transform: rotate(60deg);
+  }
+  50% {
+    transform: rotate(120deg);
+  }
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(-340deg);
+  }
+}
+
+.movie {
+  position: relative;
+  transition: 250ms all ease-in-out;
+}
+
+.movie:hover {
+  .btn-play {
+    visibility: visible;
+  }
+  transform: scale(1.05, 1.05);
+}
+
+.btn-play {
+  animation-name: btn-play;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 50px;
+  visibility: hidden;
+  transition: 250ms all ease-in-out;
+  position: absolute;
+  top: 40%;
+  color: rgba($color: #ffffff, $alpha: 0.8);
+  cursor: pointer;
+}
+
+.btn-play:hover {
+  transform: scale(1.15, 1.15);
+}
