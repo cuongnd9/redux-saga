@@ -1,17 +1,11 @@
 import React from 'react';
-import { MovieComponent } from './components';
+import { MoviesComponent } from './components';
 
 function App() {
   return (
     <div className="container">
-      <div className='row text-center'>
-        <MovieComponent />
-        <MovieComponent />
-        <MovieComponent />
-        <MovieComponent />
-        <MovieComponent />
-        <MovieComponent />
-      </div>
+      <h1 className='text-success py-5'>Simple Redux Saga</h1>
+      <MoviesComponent/>
     </div>
   );
 }
