@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "axios": "^0.18.0",
     "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-redux": "^7.0.2",
+    "react-scripts": "3.0.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +34,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://www.123phim.vn"
 }
