@@ -1,6 +1,6 @@
-# simple-redux-saga
+# Redux Saga Starter
 
-💎 Getting Started with Redux Saga.
+💎🍣 Getting Started with Redux Saga.
 
 ## Install
 
@@ -17,4 +17,4 @@ $ yarn start
 
 ## License
 
-![](https://img.shields.io/github/license/cuongw/simple-redux-saga.svg?style=flat-square)
+![](https://img.shields.io/github/license/cuongw/redux-saga-starter.svg?style=flat-square)

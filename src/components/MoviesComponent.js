@@ -10,8 +10,13 @@ class MoviesComponent extends Component {
   render() {
     return (
       <div className="row text-center">
-        {this.props.movies && this.props.movies.map((movie, index) => <MovieComponent key={index} />)}
-        {!this.props.movies && <h5 className='text-danger'>Nothing to display!</h5>}
+        {this.props.movies &&
+          this.props.movies.map((movie, index) => (
+            <MovieComponent key={index} movie={movie} />
+          ))}
+        {!this.props.movies && (
+          <h5 className="text-danger">Nothing to display!</h5>
+        )}
       </div>
     );
   }

@@ -4,7 +4,7 @@ import { MoviesContainer } from './containers';
 function App() {
   return (
     <div className="container">
-      <h1 className='text-success py-5'>Simple Redux Saga</h1>
+      <h1 className='text-success py-5'>Redux Saga Starter</h1>
       <MoviesContainer/>
     </div>
   );
