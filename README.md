@@ -1,4 +1,4 @@
-# Redux Saga Starter
+# redux-saga
 
 💎🍣 Getting Started with Redux Saga.
 
